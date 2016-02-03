@@ -15,7 +15,7 @@ common_SRC_FILES := \
 common_SRC_FILES_arm := armv6_idct.S
 
 common_CFLAGS := -DAVOID_TABLES
-common_CFLAGS += -O3 -fstrict-aliasing -fprefetch-loop-arrays
+common_CFLAGS += -O3 -fstrict-aliasing
 common_CFLAGS += -Wno-unused-parameter
 #common_CFLAGS += -march=armv6j
 
